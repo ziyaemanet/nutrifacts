@@ -18,7 +18,7 @@ module.exports = {
   },
   plugins: [
     new webpack.DefinePlugin({
-      'process.env': JSON.stringify( process.env.API_KEY ? { API_KEY: process.env.API_KEY } dotenv.parsed),
+      'process.env': JSON.stringify( process.env.API_KEY ? { API_KEY: process.env.API_KEY } : dotenv.parsed),
     }),
   ],
   module: {

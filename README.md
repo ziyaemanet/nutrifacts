@@ -12,3 +12,6 @@ https://ndb.nal.usda.gov/ndb/doc/index
 ##### Live
 
 A live version can be found here:
+
+https://ziya-emanet-nutrifacts.herokuapp.com/
+Note: please allow a minute for cold starts.

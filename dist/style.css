@@ -1,0 +1,363 @@
+#navigation {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-bottom: 2px solid black;
+  position: relative;
+  margin-left: -50vw;
+  left: 50%;
+  margin-top: -1vw;
+  min-height: 5vw;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#page-footer {
+  width: 100%;
+  height: 50px;
+  border-top: 2px solid black;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: black;
+  text-align: center;
+  font-family: 'Helvetica';
+  font-size: 5pt;
+}
+
+#footer-spacer {
+  height: 5px;
+}
+
+#root {
+   height: 100%;
+}
+
+body, html {
+  height: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#pusher {
+  height: 50px;
+}
+
+#wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -50px;
+}
+
+#wrapper-all {
+  height: 100%;
+}
+
+#background {
+  background-image: url('foods.jpg');
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+
+  position: fixed;
+  z-index: -1;
+  top: 0; right: 0; bottom: 0; left: 0;
+}
+
+#page-title-text:link {
+  font-family: 'Helvetica Black';
+  font-size: 48pt;
+  margin-left: 1vw;
+  margin-top: 1vw;
+  text-decoration: none;
+  color: black;
+}
+
+#page-title-text:visited {
+  color: black;
+}
+
+#page-title-text:hover {
+  color: black;
+}
+
+#page-title-text:active {
+  color: black;
+}
+
+#page-nav {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ margin-right: 1vw;
+}
+
+#find-your-nav {
+  font-family: 'Helvetica Black';
+  font-size: 13pt;
+}
+
+#food-search-link {
+  font-family: 'Helvetica Black';
+  font-size: 20pt;
+  margin-top: .3vw;
+}
+
+#main-white-box {
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 50vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+#main-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-title {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-top: 1.5vw;
+  margin-bottom: .4vw;
+}
+
+.main {
+  width: 90%;
+}
+
+#main-search-results {
+  flex-direction: column;
+  display: flex;
+  flex-grow: 1;
+}
+
+#main-nutrients-head {
+  display: flex;
+  flex-direction: column;
+}
+
+#calorie-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: .5vw;
+}
+
+#calories-text {
+  margin-top: 1%;
+}
+
+#nutrition-facts-text {
+  margin-top: .5vw;
+}
+
+#calorie-info {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.main-search-result {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-search-result-name {
+  text-align: left;
+  font-family: 'Helvetica';
+  font-size: 9pt;
+}
+
+.main-search-result-group {
+  text-align: right;
+  font-family: 'Helvetica';
+  font-size: 9pt;
+}
+
+.main-search-result-name-header {
+  text-align: left;
+  font-family: 'Helvetica Black';
+  font-size: 9pt;
+}
+
+.main-search-result-group-header {
+  text-align: right;
+  font-family: 'Helvetica Black';
+  font-size: 9pt;
+}
+
+#main-search-result-header {
+  margin-top: .2vw;
+  margin-bottom: .2vw;
+}
+
+#search-placeholder {
+  text-align: center;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  font-family: 'Helvetica';
+  font-size: 20pt;
+}
+
+#results-header-wrapper {
+  margin-bottom: .3vw;
+}
+
+.main-title-text {
+  font-family: 'Helvetica Black';
+  font-size: 20pt;
+}
+
+#results-text {
+  margin-top: .6vw;
+  margin-bottom: .5vw;
+}
+
+#search-input {
+  flex-grow: 1;
+  margin-left: 1vw;
+  margin-bottom: .3vw;
+  height: 20px;
+  border: 1px solid black;
+  font-family: 'Helvetica';
+  font-size: 9pt;
+}
+
+#per-amount {
+  font-family: 'Helvetica Black';
+  font-size: 9pt;
+
+}
+
+#energy-amount {
+  font-family: 'Helvetica Black';
+  font-size: 30pt;
+}
+
+#results-page-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: .2vw;
+  margin-top: .2vw;
+  width: 100%;
+}
+
+#results-page-controls-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: .3vw;
+  margin-bottom: 1vw;
+}
+
+#results-page-number {
+  font-family: 'Helvetica Black';
+  font-size: 9pt;
+}
+
+#nutrient-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0px;
+  margin-bottom: 2vw;
+}
+
+.nutrient-head-black {
+  font-family: 'Helvetica Black';
+  font-size: 9pt;
+}
+
+.nutrient-head {
+  font-family: 'Helvetica';
+  font-size: 9pt;
+}
+
+.nutrient {
+  font-family: 'Helvetica';
+  font-size: 9pt;
+}
+
+.bottom-border {
+  border-bottom: .2vw solid black;
+}
+
+.align-text-left {
+  text-align: left;
+}
+
+.align-text-right {
+  text-align: right;
+}
+
+.results-page-btn {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  font-family: 'Helvetica';
+  font-size: 9pt;
+}
+
+.thick-spacer {
+  width: 100%;
+  background-color: black;
+  height: .7vw;
+}
+
+.half-thick-spacer {
+  background-color: black;
+  height: .4vw;
+  width: 100%;
+}
+
+.thin-spacer {
+  background-color: black;
+  height: .2vw;
+  width: 100%;
+}
+
+.link-styling:link {
+  text-decoration: none;
+  color: black;
+}
+
+.link-styling:visited {
+  color: gray;
+}
+
+.link-styling:hover {
+  color: #606060;
+}
+
+.link-styling:active {
+  color: black;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('./fonts/helvetica.eot');
+  src: url('./fonts/helvetica.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/helvetica.woff2') format('woff2'),
+       url('./fonts/helvetica.woff') format('woff'),
+       url('./fonts/helvetica.ttf') format('truetype'),
+       url('./fonts/helvetica.svg#Helvetica') format('svg');
+}
+
+@font-face {
+  font-family: 'Helvetica Black';
+  src: url('./fonts/helvetica-black.eot');
+  src: url('./fonts/helvetica-black.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/helvetica-black.woff2') format('woff2'),
+       url('./fonts/helvetica-black.woff') format('woff'),
+       url('./fonts/helvetica-black.ttf') format('truetype'),
+       url('./fonts/helvetica-black.svg#HelveticaBlack') format('svg');
+}
